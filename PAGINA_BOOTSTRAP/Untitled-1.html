@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!doctype html>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/STYLE.css">
+
+  <head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg nube">
+  <div class="container-fluid">
+    <img class="navbar-brand" alt="" src="IMG/image-removebg-preview (27).png">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menú</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Ubicación
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--BARRA-->
+<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar w-75"></div>
+</div>
+
+<!--CAROUSEL-->
+<div id="carouselExampleCaptions" class="carousel slide yuji">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.hola.com/horizon/landscape/0a0f47a8cdbd-crepes-con-chocolate-y-fresas-t.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text">First slide label</h5>
+        <p class="text">Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://polloseldorado.co/wp-content/uploads/2023/03/Imagen-1-3-1024x536.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.colombia.com/gastronomia/2011/07/28/crepes-de-chocolate-1648.gif" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--BOTON-->
+<div class="texto2">
+    <h1>Postres y Dulzuras</h1> 
+</div>
+<div class="boton">
+<p class="d-inline-flex gap-1 cajon">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <button type="button" class="btn btn-primary">Recomendados</button><br><br>
+  <button class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Comentarios
+  </button>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Conócenos
+  </button>
+  </p>
+</div>
+
+<!--ABOUT-->
+<div class="about">
+  <div class="lado1">
+    <h2>Sobre nosotros</h2>
+    <p>Somos una empresa que ofrece psotres artesanales que te llevaran a vivir una experiencia cálida y dulce </p>
+  </div>
+  <div class="lado2">
+    <img class="foto" alt="" src="IMG/pexels-zvolskiy-2253643.jpg">
+  </div>
+</div>
+
+<!--CARDS-->
+<div class="cartas">
+<div class="card caras" style="width: 18rem;">
+  <img src="https://images.aws.nestle.recipes/resized/2024_10_23T08_34_55_badun_images.badun.es_pastelitos_de_chocolate_blanco_y_queso_con_fresas_1290_742.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Mini cheesecakes con fresa</h5>
+    <p class="card-text">Pequeños pasteles de queso decorados con fresas frescas y un toque de chocolate.</p>
+    <a href="#" class="btn btn-primary">Quiero Más</a>
+  </div>
+</div>
+
+<div class="card caras" style="width: 18rem;">
+  <img src="https://imag.bonviveur.com/entre-postres-mas-famosos-del-mundo-esta-la-tarta-pavlova.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Pavlova con frutos rojos</h5>
+    <p class="card-text">Un postre ligero de merengue crujiente por fuera y suave por dentro, coronado con crema batida.</p>
+    <a href="#" class="btn btn-primary">Quiero Más</a>
+  </div>
+</div>
+
+<div class="card caras" style="width: 18rem;">
+  <img src="https://www.cocinadelirante.com/800x600/filters:format(webp):quality(75)/sites/default/files/images/2023/08/postres-faciles-y-rapidos.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Tarta de limón con crema</h5>
+    <p class="card-text">Base crocante rellena de crema de limón suave y ácida, decorada con crema batida y ralladura de lima.</p>
+    <a href="#" class="btn btn-primary">Quiero Más</a>
+  </div>
+</div>
+
+<div class="card caras" style="width: 18rem;">
+  <img src="https://s3.ppllstatics.com/diariovasco/www/multimedia/201909/09/media/cortadas/postres-sin-azucar-kPaE-RHqLy3xgNxM4BJcU7OrSbTL-1248x770@Diario%20Vasco-k71C-RHqLy3xgNxM4BJcU7OrSbTL-1248x770@Diario%20Vasco.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Tartaleta de frutas con crema</h5>
+    <p class="card-text">Pequeña base de masa quebrada rellena de crema pastelera.</p>
+    <a href="#" class="btn btn-primary">Quiero Más</a>
+  </div>
+</div>
+</div>
+<br><br>
+<!--FORM-->
+<div class="reserva">
+<center><h3>Realiza tu reserva</h3></center>
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Nombre</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Apellido</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Email</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Telefono</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</div>
+</form>
+
+<!--FOOTER-->
+<div class="footer">
+  <div class="columna1">
+    <img src="IMG/facebook.png" class="" alt="">
+    <img src="IMG/instagram (2).png" class="" alt="">
+    <img src="IMG/tik-tok.png" class="" alt="">
+    <img src="IMG/whatsapp.png" class="" alt="">
+  </div>
+  <div class="columna2">
+    <b class="titulo">Atención al cliente</b><br><br>
+    <a>Horarios:</a><br>
+    <a>Lunes a sábado de 8:00 am - 9:00 pm</a><br>
+    <a>Domingos y fesivos de 8:00 am - 6:00 pm</a>
+<br><br>
+    <a>Correo Electrónico:</a><br>
+    <a>postresydulzuras@gmail.com</a>
+  </div>
+</div>
+
+</body>
+</html>
+</head>
+</html>
